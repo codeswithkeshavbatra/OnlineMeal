@@ -1,0 +1,78 @@
+/* Responsive */
+    /* navbar */
+
+nav{
+    display: flex;
+    width: 100%;
+} 
+
+.item a{
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    font-size: 1rem;
+}
+#logo{
+    margin:0px 0px
+}
+
+/* home section */
+#home{
+    height: 390px;
+    width: 100%;
+    padding: 3px 38px;
+}
+#home::before{
+    height: 480px; 
+}
+#home p{
+    font-size: 13px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+.client{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.client img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+form{
+    width: 80%;
+}
+button{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+@media screen and (max-width: 780px) and (min-width: 250px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 125px;
+        width: 100%;
+        font-size: 10px;
+        /* overflow: hidden; */
+    }
+    .navbar .item{
+        padding: 0px 2px;
+        margin-left: 0px;
+    }
+    nav img{
+        height: 40px;
+        width: 43px;
+        margin-top: 10px;
+    }
+    nav ul{
+        margin: 0px;
+    }
+}
